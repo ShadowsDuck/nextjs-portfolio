@@ -64,7 +64,7 @@ const Hero = () => {
               DEVELOPER
             </h1>
             <div className="relative ml-2 min-w-fit mt-1">
-              <a href="#about">
+              <a href="#projects">
                 <MagicButton
                   title="Show my work"
                   icon={<FaLocationArrow />}
