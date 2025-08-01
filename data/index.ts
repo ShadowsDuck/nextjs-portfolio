@@ -73,7 +73,7 @@ export const projects = [
     title: "Wi-Attend",
     des: "A modern attendance tracking system. Robust data management for efficient record-keeping.",
     img: "/wi-attend.png",
-    iconLists: ["/re.svg", "/tail.svg", "/js.png"],
+    iconLists: ["/re.svg", "/expo.png", "/tail.svg", "/js.png"],
     link: "https://github.com/ShadowsDuck/react-native-WiAttend",
   },
 ];

@@ -6,16 +6,6 @@ import { FaLocationArrow } from "react-icons/fa6";
 const RecentProjects = () => {
   return (
     <div className="relative">
-      <section
-        className="pt-10 mx-auto container max-w-[54rem] px-4 md:px-0 md:pt-20 z-50"
-        id="projects"
-      >
-        {/* Header */}
-        <p className="text-[22px] inter font-extralight text-neutral-300 -mb-4 tracking-widest text-left">
-          Projects
-        </p>
-      </section>
-
       {/* Blurry Background */}
       <div
         className="absolute top-10 left-[-550px] w-[570px] h-[264px] blur-[130px] z-10 pointer-events-none"
@@ -33,6 +23,16 @@ const RecentProjects = () => {
       />
 
       <div className="opacity-0 animate-[fadeInUp_1s_ease-out_0.8s_forwards]">
+        <section
+          className="pt-10 mx-auto container max-w-[54rem] px-4 md:px-0 md:pt-20 z-50"
+          id="projects"
+        >
+          {/* Header */}
+          <p className="text-[22px] inter font-extralight text-neutral-300 -mb-4 tracking-widest text-left">
+            Projects
+          </p>
+        </section>
+
         {/* Content */}
         <div className="flex flex-wrap items-center justify-center p-4 gap-x-16 gap-y-8">
           {projects.map(({ id, title, des, img, iconLists, link }) => (
