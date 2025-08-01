@@ -5,7 +5,16 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
-export const workExperience = [
+export type ExperienceItem = {
+  id: number;
+  period: string;
+  company: string;
+  position: string;
+  description: string;
+  image: string;
+};
+
+export const workExperience: ExperienceItem[] = [
   // {
   //   id: 1,
   //   period: "Time: No Data",
