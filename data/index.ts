@@ -28,7 +28,7 @@ export const workExperience: ExperienceItem[] = [
 export const studiesData = [
   {
     id: 1,
-    period: "2022 - Present",
+    period: "Jun 2022 - Present",
     company: "Naresuan University",
     position: "Bachelor in Computer Science",
     description: "",
@@ -36,17 +36,17 @@ export const studiesData = [
   },
   {
     id: 2,
-    period: "2016 - 2021",
+    period: "May 2016 - Mar 2022",
     company: "Sawananan Wittaya School",
-    position: "Arts-Mathematics program",
+    position: "General Education & Arts-Mathematics program",
     description: "",
     image: "/Sawananan_Wittaya_School_Logo.png",
   },
   {
     id: 3,
-    period: "2010 - 2015",
+    period: "May 2010 - Mar 2016",
     company: "Sawangkhok Prachasan School",
-    position: "Student",
+    position: "General Education",
     description: "",
     image: "/Sawangkhok_Prachasan_School_Logo.png",
   },
