@@ -32,7 +32,7 @@ export const studiesData = [
     company: "Naresuan University",
     position: "Bachelor in Computer Science",
     description: "",
-    image: "/Naresuan_University_Logo.png",
+    image: "/Naresuan_University_Logo.webp",
   },
   {
     id: 2,
@@ -40,7 +40,7 @@ export const studiesData = [
     company: "Sawananan Wittaya School",
     position: "General Education & Arts-Mathematics program",
     description: "",
-    image: "/Sawananan_Wittaya_School_Logo.png",
+    image: "/Sawananan_Wittaya_School_Logo.webp",
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ export const studiesData = [
     company: "Sawangkhok Prachasan School",
     position: "General Education",
     description: "",
-    image: "/Sawangkhok_Prachasan_School_Logo.png",
+    image: "/Sawangkhok_Prachasan_School_Logo.webp",
   },
 ];
 
@@ -77,7 +77,7 @@ export const projects = [
     id: 1,
     title: "Tanaphat's Portfolio",
     des: "This is Tanaphat's personal portfolio, showcasing various experiences, skills, and projects.",
-    img: "/portfolio.png",
+    img: "/portfolio.webp",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/ace.png"],
     link: "https://github.com/ShadowsDuck/nextjs-portfolio",
   },
@@ -85,7 +85,7 @@ export const projects = [
     id: 2,
     title: "Wi-Attend",
     des: "A modern attendance tracking system. Robust data management for efficient record-keeping.",
-    img: "/wi-attend.png",
+    img: "/wi-attend.webp",
     iconLists: ["/re.svg", "/expo.png", "/tail.svg", "/js.png"],
     link: "https://github.com/ShadowsDuck/react-native-WiAttend",
   },

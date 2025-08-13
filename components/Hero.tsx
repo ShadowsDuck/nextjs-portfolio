@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="pt-2 text-center flex items-center justify-center gap-4">
           <div className="relative inline-block w-16 h-16 md:w-20 md:h-20">
             <Image
-              src="/user-icon.png"
+              src="/profile.png"
               alt="User Profile"
               fill
               className="rounded-full transition-transform duration-500 hover:scale-125 hover:-rotate-12 border border-white object-cover"
@@ -55,12 +55,12 @@ const Hero = () => {
         {/* Text */}
         <div className="flex flex-col items-center justify-center">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex items-center justify-center">
-            <h1 className="text-5xl text-gray-50 font-avantgarde font-bold md:text-6xl lg:text-8xl tracking-wide">
+            <h1 className="text-5xl text-gray-50 text-shadow-white/50 text-shadow-md font-avantgarde font-bold md:text-6xl lg:text-8xl tracking-wide">
               FULLSTACK
             </h1>
           </div>
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex items-center justify-center">
-            <h1 className="text-4xl text-gray-50 font-avantgarde font-bold md:text-6xl lg:text-8xl tracking-wide">
+            <h1 className="text-4xl text-gray-50 font-avantgarde text-shadow-white/50 text-shadow-md font-bold md:text-6xl lg:text-8xl tracking-wide">
               DEVELOPER
             </h1>
             <div className="relative ml-2 min-w-fit mt-1">

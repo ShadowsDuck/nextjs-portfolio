@@ -4,7 +4,7 @@ import WorkExperienceTab from "./WorkExperienceTab";
 import StudiesTab from "./StudiesTab";
 
 export default function ExperienceSection() {
-  const [activeTab, setActiveTab] = useState("work");
+  const [activeTab, setActiveTab] = useState("studies");
 
   return (
     <section
@@ -22,18 +22,6 @@ export default function ExperienceSection() {
       >
         <button
           role="tab"
-          aria-selected={activeTab === "work"}
-          onClick={() => setActiveTab("work")}
-          className={`inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm  transition-all cursor-pointer inter font-regular ${
-            activeTab === "work"
-              ? "shadow bg-white text-neutral-500"
-              : "text-neutral-300"
-          }`}
-        >
-          Work
-        </button>
-        <button
-          role="tab"
           aria-selected={activeTab === "studies"}
           onClick={() => setActiveTab("studies")}
           className={`inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm transition-all cursor-pointer inter font-regular ${
@@ -44,8 +32,19 @@ export default function ExperienceSection() {
         >
           Studies
         </button>
+        <button
+          role="tab"
+          aria-selected={activeTab === "work"}
+          onClick={() => setActiveTab("work")}
+          className={`inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm  transition-all cursor-pointer inter font-regular ${
+            activeTab === "work"
+              ? "shadow bg-white text-neutral-500"
+              : "text-neutral-300"
+          }`}
+        >
+          Work
+        </button>
       </div>
-
       {activeTab === "work" ? <WorkExperienceTab /> : <StudiesTab />}
     </section>
   );
