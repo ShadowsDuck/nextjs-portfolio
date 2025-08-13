@@ -48,7 +48,7 @@ export const studiesData = [
     company: "Sawangkhok Prachasan School",
     position: "General Education",
     description: "",
-    image: "/Sawangkhok_Prachasan_School_Logo.webp",
+    image: "/Sawangkhok_Prachasan_School_Logo.png",
   },
 ];
 
