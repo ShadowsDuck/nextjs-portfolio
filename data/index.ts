@@ -63,7 +63,7 @@ export const techStack = [
   { name: "Postgresql", icon: "/postgresql.svg" },
   { name: "Drizzle ORM", icon: "/drizzle.png" },
   { name: "Tailwind CSS", icon: "/tailwindcss.svg" },
-  { name: "Shadcn", icon: "/Shadcn.png" },
+  { name: "Shadcn", icon: "/shadcn.png" },
   { name: "Clerk", icon: "/clerk.svg" },
   { name: "Better Auth", icon: "/better-auth.png" },
   { name: "Vscode", icon: "/vscode.svg" },
